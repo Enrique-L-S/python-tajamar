@@ -10,6 +10,7 @@ class Mensaje(abc.ABC):
     def importar_fichero(self):
         pass
 
+    @abc.abstractmethod
     def exportar_fichero(self, ruta):
         pass
 
