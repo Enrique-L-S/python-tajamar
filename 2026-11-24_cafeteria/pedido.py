@@ -23,7 +23,7 @@ almacen.agregar_producto("Menta", 5)
 almacen.agregar_producto("Salmón", 2)
 
 # Ver los productos en el almacén
-print(f"Productos en el almacén:")
+print("\nProductos en el almacén:")
 almacen.mostrar_productos()
 
 # Definir productos
@@ -49,13 +49,13 @@ almacen.agregar_producto("Sirope", 5)
 almacen.agregar_producto("Azúcar", 100)
 
 # Ver los productos en el almacén
-print(f"Productos en el almacén:")
+print("\nProductos en el almacén:")
 almacen.mostrar_productos()
 
 print("\nProcesando pedido 3:")
 pedido3 = Pedido([cafe_vegano])
 pedido3.procesar_pedido(almacen)
 
-print("\nProcesando pedido 3:")
+print("\nProcesando pedido 4:")
 pedido4 = Pedido([cafe, tarta])
 pedido4.procesar_pedido(almacen)
